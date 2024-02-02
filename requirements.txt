@@ -1,4 +1,3 @@
-
 pandas
 numpy
 matplotlib
@@ -7,3 +6,6 @@ scikit-learn
 jupyter
 tensorflow
 keras
+streamlit
+sqlite3
+pygame
