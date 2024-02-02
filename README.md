@@ -24,15 +24,32 @@ The dataset can be found here: [FL3D Dataset](https://www.kaggle.com/datasets/ma
 For building a robust and interactive web application for real-time inference, we have used Streamlit and used Embedded architecture to load the model directly into the UI.
 
 #### SignIn/SignUp page:
+![](https://github.com/Safwan-ullah-khan/drivers-drowsiness-detection/blob/main/images/SignIn%20page.png)
 
 #### Detection Page:
+![](https://github.com/Safwan-ullah-khan/drivers-drowsiness-detection/blob/main/images/Detection%20Page.png)
 
 #### Nearest Location Page:
+![](https://github.com/Safwan-ullah-khan/drivers-drowsiness-detection/blob/main/images/Location.png)
+
+#### History Page;
+![](https://github.com/Safwan-ullah-khan/drivers-drowsiness-detection/blob/main/images/History.png)
+
+## Prediction Result:
+#### Alert State:
+![](https://github.com/Safwan-ullah-khan/drivers-drowsiness-detection/blob/main/images/Alert.png)
+
+#### Microsleep State:
+![](https://github.com/Safwan-ullah-khan/drivers-drowsiness-detection/blob/main/images/Microsleep%20state.png)
+
 
 ## Installation and Setup:
 
 #### 1. Clone the Repository:
-`git clone git@github.com:Safwan-ullah-khan/dsp-finalproject.git`
+`git clone git@github.com:Safwan-ullah-khan/drivers-drowsiness-detection.git`
+
+#### 2. Navigate to Streamlit directory:
+`cd ./drivers-drowsiness-detection/Streamlit/`
 
 #### 2. Create conda environment (Optional but Recommended):
 `conda create --name myenv python==3.9`
@@ -40,6 +57,9 @@ For building a robust and interactive web application for real-time inference, w
 #### 3. Install Required Python Libraries:
 `pip install -r requirements.txt`
 
-#### 4. Run the Streamlit App:
+#### 4. Add Google maps API:
+Make an html file for google maps functionality
+
+#### Run the Streamlit App:
 `streamlit run main.py
 `
