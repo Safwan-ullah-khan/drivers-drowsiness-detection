@@ -49,7 +49,7 @@ For building a robust and interactive web application for real-time inference, w
 `git clone git@github.com:Safwan-ullah-khan/drivers-drowsiness-detection.git`
 
 #### 2. Navigate to Streamlit directory:
-`cd ./drivers-drowsiness-detection/Streamlit/`
+`cd ./drivers-drowsiness-detection/StreamApp/`
 
 #### 2. Create conda environment (Optional but Recommended):
 `conda create --name myenv python==3.9`
